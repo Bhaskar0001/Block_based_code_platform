@@ -1,0 +1,31 @@
+.appRoot {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #0f1220;
+  color: white;
+}
+
+.mainGrid {
+  flex: 1;
+  min-height: 0; /* critical */
+  display: grid;
+  grid-template-columns: 1.35fr 0.65fr;
+  gap: 10px;
+  padding: 10px;
+}
+
+.panel {
+  min-height: 0; /* critical */
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: #171a2b;
+}
+
+.panelDebug {
+  height: 160px;
+  margin: 0 10px 10px 10px;
+}

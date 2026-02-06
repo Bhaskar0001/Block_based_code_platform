@@ -1,0 +1,28 @@
+.blocklyWrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.blocklyHeader {
+  padding: 10px 12px;
+  font-weight: 700;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.blocklyDiv {
+  flex: 1;
+  width: 100%;
+  min-height: 0; /* IMPORTANT for flex children */
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Ensure Blockly fills container */
+.blocklyDiv .blocklySvg {
+  height: 100% !important;
+  width: 100% !important;
+}

@@ -1,0 +1,10 @@
+.injectionDiv { position: relative; width: 100%; height: 100%; }
+.blocklySvg { background: #101325; outline: none; position: absolute; display: block; }
+.blocklyToolboxDiv { background: #151a2d; color: #fff; overflow-y: auto; position: absolute; z-index: 70; }
+.blocklyFlyout { position: absolute; z-index: 60; }
+.blocklyFlyoutBackground { fill: #12162a; fill-opacity: 0.95; }
+.blocklyMainBackground { stroke-width: 1; stroke: rgba(255,255,255,0.06); }
+.blocklyTreeRow:hover { background: rgba(255,255,255,0.06); }
+.blocklyTreeSelected { background: rgba(120,90,255,0.25) !important; }
+.blocklyScrollbarHandle { fill: rgba(255,255,255,0.20); }
+.blocklyScrollbarBackground { fill: rgba(255,255,255,0.06); }

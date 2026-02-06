@@ -1,0 +1,83 @@
+/* --- Minimal Blockly CSS to make UI appear in CRA --- */
+
+.blocklySvg {
+  background-color: #101325;
+  outline: none;
+  overflow: hidden;
+  position: absolute;
+  display: block;
+}
+
+.injectionDiv {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.blocklyToolboxDiv {
+  background: #151a2d;
+  color: #fff;
+  overflow-x: visible;
+  overflow-y: auto;
+  position: absolute;
+  z-index: 70;
+}
+
+.blocklyTreeRoot {
+  padding: 6px 0;
+}
+
+.blocklyTreeRow {
+  height: 28px;
+  line-height: 28px;
+  padding: 0 10px;
+}
+
+.blocklyTreeRow:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.blocklyTreeSelected {
+  background: rgba(120, 90, 255, 0.25) !important;
+}
+
+.blocklyFlyout {
+  position: absolute;
+  z-index: 60;
+}
+
+.blocklyFlyoutBackground {
+  fill: #12162a;
+  fill-opacity: 0.95;
+}
+
+.blocklyMainBackground {
+  stroke-width: 1;
+  stroke: rgba(255, 255, 255, 0.06);
+}
+
+.blocklyScrollbarHandle {
+  fill: rgba(255, 255, 255, 0.20);
+}
+
+.blocklyScrollbarBackground {
+  fill: rgba(255, 255, 255, 0.06);
+}
+
+.blocklyWidgetDiv .goog-menu {
+  background: #1b2036;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+.blocklyWidgetDiv .goog-menuitem {
+  color: #fff;
+}
+
+.blocklyWidgetDiv .goog-menuitem-highlight {
+  background: rgba(255,255,255,0.08);
+}
+
+.blocklyDropDownDiv {
+  background-color: #1b2036 !important;
+  border: 1px solid rgba(255,255,255,0.15) !important;
+}
